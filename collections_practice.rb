@@ -28,7 +28,7 @@ def swap_elements(arr) #Undestructive
   new_arr
 end
 
-def swap_elements_from_to(arr, idx1, idx2)
+def swap_elements_from_to(arr, idx1, idx2) #Undestructive
   new_arr = []
   new_ele1 = arr[idx2]
   new_ele2 = arr[idx1]
