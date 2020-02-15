@@ -10,7 +10,7 @@ def sort_array_char_count(arr)
   arr.sort { |str1, str2| str1.length <=> str2.length}
 end
 
-def swap_elements(arr)
+def swap_elements(arr) #Undestructive
   new_arr = []
   new_second = arr[2]
   new_third = arr[1]
@@ -28,7 +28,7 @@ def swap_elements(arr)
   new_arr
 end
 
-def swap_elements_from_to(arr, idx1, idx2)
+def swap_elements_from_to(arr, idx1, idx2) #Undestructive
   new_arr = []
   new_ele1 = arr[idx2]
   new_ele2 = arr[idx1]
